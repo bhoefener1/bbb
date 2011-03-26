@@ -1,0 +1,117 @@
+/* --------------------------------------------------------------------------- */
+/* These items control the overall strucure of the site. edit at your own risk */
+/* --------------------------------------------------------------------------- */
+/* begin styles for main site structure */
+body {margin:0; padding:0; font-family:arial, helvetica, verdana, sans-serif; height:100%}
+div#page {position:relative; height:100%; width:760px; margin:0 auto; padding:0;}
+div#left-col {position:absolute; top:0; left:0; width:175px; height:100%; padding:0; margin:0}
+img {border:0}
+img#logo {width:157px; height:104px; margin:20px 9px 20px 9px}
+div#content {margin:0 0 0 175px; padding:20px 50px 0 20px; min-height:600px; height:100%;
+  background:#fff url(../images/monitor.jpg) no-repeat bottom right}
+div#content-header {width:530px; margin:5px auto 30px auto; text-align:right; 
+  border-bottom:2px solid #942D44; font-weight:bold; padding:0}
+div#content-header p {color:#000}
+div#content-header p a {color:#942D44}
+div#content-header p .OS {color:#000}
+div#content-header p .OS911 {color:#942D44}
+div#logos {text-align:center; padding-bottom:30px}
+span.red {color:#942D44; font-weight:bold}
+/* end styles for main site structure */
+/* --------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------------- */
+/* These are to change the background colors should you want to change them    */
+/* --------------------------------------------------------------------------- */
+/* begin background colors */
+body {background:#C6C9BC}
+div#page { background:#942D44}
+div#left-col {background:#942D44}
+/* end background colors */
+/* --------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------------------ */
+/*  This code controls the font size and color for the headings, paragraphs, and lists. */
+/*  These items will most likely be the main ones you might want to change.             */
+/* ------------------------------------------------------------------------------------ */
+/* begin headings, parapgraphs, and lists font size and colors */
+h1 {font-size:1.2em; color:#942D44}
+h2 {font-size:1.2em; color:#942D44;}
+h3 {font-size:1.0em; color:#942D44; margin-bottom:10px}
+p {color:#000; margin-top:0; font-size:0.95em}
+li {padding:5px 0; color:#000; font-size:0.95em}
+/* end headings, parapgraphs, and lists font size and colors */
+/* ----------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/*    This code controls the layout and look of the bottom navigation     */
+/* ---------------------------------------------------------------------- */
+/* begin styles for bottom navigation */
+div#bot-nav {font-size:12px; color:#942D44; text-align:center; margin-top:50px; 
+  padding-bottom:50px; font-weight:bold}
+div#bot-nav a {color:#942D44; text-decoration:none; font-weight:bold}
+div#bot-nav a:hover {text-decoration:underline}
+/* end styles for bottom navigation */
+/* ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/*        This code controls the file cabinet menu. Do not edit           */
+/* ---------------------------------------------------------------------- */
+/* begin styles for main menu */
+ul#menu {list-style:none; color:#fff; font-size:14px; font-weight:bold; text-align:center; 
+  margin:0; padding:0; background:#A4A796; border:5px solid #A4A796; border-bottom-width:10px}
+ul#menu li {padding:5px 0; border:solid #868B83; border-width:1px; margin:2px 0}
+ul#menu a:hover, ul#menu a.sfhover {color:#942D44}
+ul#menu li.open {border:solid #646061; border-width:1px 5px 5px 1px;}
+ul#menu li.open:hover a {color:#fff}
+ul#menu a {color:#fff; text-decoration:none}
+ul#menu img {margin-top:5px}
+/* end styles for main menu */
+/* ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/*      This code controls the layout and look of the Google search       */
+/* ---------------------------------------------------------------------- */
+/* begin styles for Google search */
+div#search {padding-bottom:20px}
+div#search table {margin:0 auto}
+div#search input {font-size:14px; width:130px}
+/* end styles for Google search */
+/* ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/*         This code controls the layout and look of the footer           */
+/* ---------------------------------------------------------------------- */
+/* begin styles for footer (copyright and credit) */
+div#footer {width:760px; margin:5px auto; font-size:12px; color:#942D44; font-style:italic}
+div#copy {text-align:right; margin-bottom:5px}
+div#credit {text-align:right; padding-bottom:20px}
+div#credit a {color:#942D44}
+div#credit a:hover {color:#f00}
+/* end styles for footer (copyright and credit) */
+/* ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/*                These items are for specific pages.                     */
+/* ---------------------------------------------------------------------- */
+/* begin styles for specifc page content */
+img#karen {float:left; width:202px; height:233px; margin:10px 10px 3px 0}
+p.disclaimer {font-size:0.75em; margin-top:50px}
+/* end styles for specifc page content */
+/* ---------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/*                These items are for payment table.                      */
+/* ---------------------------------------------------------------------- */
+table#payment {width:70%; margin:20px auto 30px auto;}
+table#payment th {color:#942d44; border-bottom:1px solid #942d44}
+table#payment td {text-align:center; padding:10px}
+table#payment td.left-column, table#payment th.left-column {border-right:1px solid #942d44}
+/* ---------------------------------------------------------------------- */
