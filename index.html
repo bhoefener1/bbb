@@ -17,18 +17,19 @@
     h3 { color: green; }
     p + p { text-indent: 0; }
     div.container {background-color: white; }
-    body {background-color: black; }
+    body { background-color: black; }
+    img.frame { border: 2px solid black; }
   </style>
   <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint-css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
 </head>
 
 <body>
   <div class="container">
-    <div class="span-24 last"><img src=
+    <div align="center" class="span-24 last"><img src=
     "http://img232.imageshack.us/img232/8149/image006f.gif" alt=
     "Bodyworks By Barb"></div>
 
-    <div class="span-5">
+    <div class="column span-5">
       <ul id="navmenu-v">
         <li><a href="#">Home</a></li>
 
@@ -54,7 +55,7 @@
         <li><a href="#">Links</a></li>
       </ul>
     </div>
-    <div class="span-18 box last quiet">
+    <div id="content" class="column span-18 last quiet">
 
       <!--#include virtual="test.html" -->
 
@@ -136,14 +137,10 @@
       an office, wedding, social gathering, charity event, or any place where
       people could use a mini escape from the day.</p><br>
     </div>
-
-    <div class="span-12 colborder"><img src=
-    "http://img696.imageshack.us/img696/5783/image007io.jpg" alt=
-    "Peaceful river scene"></div>
-
-    <div class="span-11 last"><img src=
-    "http://img42.imageshack.us/img42/50/image008sa.jpg" alt=
-    "Barb with tulips"></div>
+    <div align="center" class="span-24">
+      <img class="frame" src="http://img696.imageshack.us/img696/5783/image007io.jpg" alt="Peaceful river scene">
+      <img class="frame" src="http://img42.imageshack.us/img42/50/image008sa.jpg" alt="Barb with tulips"></div>
+    </div>
   </div>
 </body>
 </html>
