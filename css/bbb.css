@@ -1,7 +1,7 @@
 h1 { color: maroon; }
 h3 { color: green; }
 p + p { text-indent: 0; }
-div.container {background-color: #fcfcfc; height: 100%; }
+div.container {background-color: #fcfcfc; }
 body { background-color: #897eeb; }
 img.frame {
   border: 2px solid black;
@@ -12,3 +12,5 @@ iframe {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+
+html,body { height:100%; }
