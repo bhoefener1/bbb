@@ -1,4 +1,4 @@
-h1 { color: maroon; align: center; }
+h1 { color: maroon; text-align: center; }
 h3 { color: green; }
 p + p { text-indent: 0; }
 div.container {background-color: #fcfcfc; }
