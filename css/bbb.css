@@ -1,7 +1,7 @@
 h3 { color: green; }
 p + p { text-indent: 0; }
-div.container {background-color: #e5eCf9; }
-body { background-color: #111F9A; }
+div.container {background-color: #fcfcff; }
+body { background-color: #1c399b; }
 img.frame {
   border: 2px solid black;
   margin: 5px 5px 5px 5px;
