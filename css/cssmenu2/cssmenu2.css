@@ -4,7 +4,7 @@ Description: Dynamic Menu System - Vertical
 */
 
 ul#navmenu-v,ul#navmenu-v li,ul#navmenu-v ul {
- width: 160px; /* Menu Width */
+ width: 120px; /* Menu Width */
  margin: 0;
  list-style: none;
 }
