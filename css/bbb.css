@@ -8,3 +8,6 @@ img.frame {
   margin: 5px 5px 5px 5px;
 }
 a { color: maroon; }
+html {
+  overflow-y: scroll;
+}
