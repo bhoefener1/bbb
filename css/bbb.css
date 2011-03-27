@@ -2,7 +2,7 @@ h1 { color: maroon; }
 h3 { color: green; }
 p + p { text-indent: 0; }
 div.container {background-color: #fcfcfc; }
-body { background-color: #897eeb; }
+body { background-color: #897eeb; height: 100%}
 img.frame {
   border: 2px solid black;
   margin: 5px 5px 5px 5px;
@@ -11,7 +11,4 @@ a { color: maroon; }
 iframe {
   overflow-x: hidden;
   overflow-y: scroll;
-}
-html {
-  height: 100%;
 }
