@@ -1,8 +1,8 @@
 h1 { color: maroon; }
 h3 { color: green; }
 p + p { text-indent: 0; }
-div.container {background-color: #fcfcfc; }
-body { background-color: #897eeb; }
+div.container {background-color: #fcfcfc; height: 100%; }
+body { background-color: #897eeb; height: 100% }
 img.frame {
   border: 2px solid black;
   margin: 5px 5px 5px 5px;
@@ -13,4 +13,4 @@ iframe {
   overflow-y: scroll;
 }
 
-html, body { height: 100%; }
+html { height: 100%; }
