@@ -1,7 +1,8 @@
 h1 { color: maroon; }
 h3 { color: green; }
 p + p { text-indent: 0; }
-div.container {background-color: #fcfcfc; }
+div {height: 100%; }
+div.container {background-color: #fcfcfc; height: 100%; }
 body { background-color: #897eeb; height: 100%; }
 img.frame {
   border: 2px solid black;
