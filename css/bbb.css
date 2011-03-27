@@ -9,5 +9,6 @@ img.frame {
 }
 a { color: maroon; }
 html {
+  margin-left: -1px;
   overflow-y: scroll;
 }
