@@ -2,7 +2,7 @@ h1 { color: maroon; }
 h3 { color: green; }
 p + p { text-indent: 0; }
 div.container {background-color: #fcfcfc; }
-body { background: #897eeb url(images/fourcolbg.gif) repeat-y 50% 0; }
+body { background: url(images/fourcolbg.gif) repeat-y 50% 0; }
 img.frame {
   border: 2px solid black;
   margin: 5px 5px 5px 5px;
