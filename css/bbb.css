@@ -8,3 +8,7 @@ img.frame {
   margin: 5px 5px 5px 5px;
 }
 a { color: maroon; }
+iframe {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
